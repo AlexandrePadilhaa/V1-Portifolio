@@ -1,3 +1,5 @@
+import { AboutMe } from "@/components/home/aboutMe"
+import { Projects } from "@/components/home/projects"
 import Link from "next/link"
 
 export default function Home() {
@@ -9,7 +11,8 @@ export default function Home() {
       <Link href='/contato'>
         <h2>Ir para contatos</h2>
       </Link>
-
+      <AboutMe/>
+      <Projects/>
     </main>
   )
 }
