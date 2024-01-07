@@ -20,7 +20,7 @@ export const AboutMe = () => {
                     <h2 className={`${roboto.className} mb-12`}>
                     Sou estudante de Sistemas de Informação na UTFPR - Curitiba-PR, com experiência como desenvolvedor front-end voluntário no projeto de extensão NOS - NOSSO OLHAR SOLIDÁRIO. Entusiasta de tecnologia, estou em busca de oportunidades para aplicar e expandir meus conhecimentos na criação de soluções inovadoras.
                     </h2>
-                    <Link href="/contatos" className="p-3 bg-purple w-fit text-xl rounded-lg transition-all hover:bg-opacity-50"> Converse comigo!</Link>
+                    <Link href="/contato" className="p-3 bg-purple w-fit text-xl rounded-lg transition-all hover:bg-opacity-50"> Converse comigo!</Link>
                 </div>
 
                 <ul className=" flex flex-wrap justify-center xl:grid xl:grid-cols-2 xl:w-fit gap-3 text-xl">
@@ -40,6 +40,6 @@ export const AboutMe = () => {
                     height={200}
                 />
             </div>
-
+            
         </main>);
 }
