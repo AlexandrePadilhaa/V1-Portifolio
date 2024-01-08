@@ -9,11 +9,11 @@ const roboto = Roboto({
 
 export const AboutMe = () => {
     return (
-        <main className="flex flex-col-reverse md:flex-row justify-center items-center text-center gap-10 md:gap-32 py-8 text-lg xl:text-left xl:flex-nowrap " >
+        <main className="flex flex-col-reverse md:flex-row justify-center items-center text-center gap-10 md:gap-16 py-8 text-lg xl:text-left xl:flex-nowrap " >
             <div className=" text-white flex flex-col items-center xl:items-start gap-5 w-full xl:w-120">
 
-                <h1 className="text-3xl sm:text-7xl "> Olá! Prazer, sou&nbsp;
-                <span>Alexandre</span></h1>
+                <h1 className="text-3xl sm:text-7xl "> Olá! Prazer,&nbsp;&nbsp;
+                <span>Alexandre Padilha</span></h1>
                 
 
                 <div className="mb-12">
@@ -36,8 +36,8 @@ export const AboutMe = () => {
                     src="https://avatars.githubusercontent.com/u/105119507?s=400&v=4"
                     alt="Foto de perfil"
                     unoptimized
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                 />
             </div>
             

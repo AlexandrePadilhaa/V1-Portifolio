@@ -7,7 +7,7 @@ export default function Home() {
     {
       slug : 'Jogo 2D orientado a objetos',
       name : 'Jogo 2D orientado a objetos',
-      description: "Jogo desenvolvido na matéria Técnicas de programação utilizando orientação a objetos e padrões de projeto na linguagem C++ e utilizando a bibliotéca gráfica SFML.",
+      description: "Jogo desenvolvido na matéria Técnicas de programação utilizando orientação a objetos e padrões de projeto na linguagem C++ com a bibliotéca gráfica SFML.",
       image: {
         url: 'https://i.imgur.com/SHNeNu9.png', alt:'imagem do projeto'
       }
